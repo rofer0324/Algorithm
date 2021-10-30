@@ -1,2 +1,2 @@
-# Algoritmos
-Pequeños Algoritmos
+# Algorithm
+Tiny Algorithms
