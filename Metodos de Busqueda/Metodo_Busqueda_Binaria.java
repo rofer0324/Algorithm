@@ -1,7 +1,7 @@
 public class Metodo_Busqueda_Binaria {
     public static void main(String[] args) {
 
-        int arreglo[] = {1,2,3,4,5,6,7,8,9,10}; //Necesariamente el Arreglo debe estar ordenado.
+        int arreglo[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; //Necesariamente el Arreglo debe estar ordenado.
 
         int inicio = 0, fin = arreglo.length - 1;
         int clave = 5;
