@@ -1,7 +1,7 @@
 public class Metodo_Busqueda_Binaria {
     public static void main(String[] args) {
 
-        int arreglo[] = {1,2,3,4,5,6,7,8,9,10};
+        int arreglo[] = {1,2,3,4,5,6,7,8,9,10}; //Necesariamente el Arreglo debe estar ordenado.
 
         int inicio = 0, fin = arreglo.length - 1;
         int clave = 5;
@@ -24,14 +24,3 @@ public class Metodo_Busqueda_Binaria {
     }
 }
 
-
-// Algoritmo De busqueda binaria de Yolanda xd re raro
-/*for(i = 1; i < arreglo.length - 1; i++){
-            for(j = i + 1; j < arreglo.length; j++){
-                if(arreglo[i] > arreglo[j]){
-                    aux = arreglo[i];
-                    arreglo[i] = arreglo[j];
-                    arreglo[j] = aux;
-                }
-            }
-        }*/
